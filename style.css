@@ -1,0 +1,58 @@
+#box{
+  display: flex;
+  background-color: blanchedalmond;
+  height: 800px;
+  width: 600px;
+  /* align-items: center; 
+  justify-content: center;  */
+  flex-direction: column;
+  border-radius: 20px;
+
+}
+#hud{
+  display: flex;
+  /* background-color: rgba(22, 20, 18, 0.288); */
+  height: 200px;
+  width: 550px;
+  margin: 25px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+#bot{
+ height: 120px;
+ width: 550px;
+ background-color: rgb(157, 28, 161);
+ font-size: 30px;
+ border-radius: 10px;
+}
+#top{
+  font-size: 30px;
+ height: 70px;
+ width: 550px;
+ background-color: rgb(125, 27, 238);
+ border-radius: 10px;
+}
+
+#bottuns{
+  
+  display: flex;
+  align-items: center; /* centers vertically */
+  justify-content: center; /* centers horizontally */
+  flex-wrap: wrap;
+}
+button{
+  background-color: rgb(174, 194, 88);
+  font-size: 30px;
+  height: 80px;
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body{
+  background-color: rgb(44, 88, 170);
+  display: flex;
+  align-items: center; /* centers vertically */
+  justify-content: center; /* centers horizontally */
+}
